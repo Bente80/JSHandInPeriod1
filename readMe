@@ -1,0 +1,57 @@
+Bente´s hand in fore the first period.
+
+This file is meant to give you an overwiev of this hand in.
+
+I have called the javascript files the same thing as the questions we have to descripe, so it should be easier to find
+the logic in. Therefore:
+
+Use strict is called:
+- useStrict.js
+
+Hoisting is devided into one with variables and one with functions called:
+- hoistingVariable.js
+- hoistingFunction.js
+
+This is called:
+- this.js
+
+Function closures and the JavaScript Module Pattern are divide into to called:
+- closuresAndModule1.js
+- closuresAndModule2.js
+
+Immediately-Invoked Function Expressions (IIFE) is called:
+-ImmediatelyInvokedFunctionExpressions.js
+
+Javascript Prototyping is devided into two called:
+prototyping.js
+prototypingArray.js
+
+Debugger is called:
+-debugger.js
+
+Callback Functions are divided into three called:
+-callbackFunctions1.js
+-callbackFunctions2.js
+-callbackFunctions3.js
+
+Explain generally about node.js and NPM:
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
+Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+
+Reusable Modules are called:
+-reusableModules.js
+-reusableModulesPart2.js
+and is one assignment, where you run part 2 to see that part one is working.
+This assingment was orriginally from learnyounode ex. 6, and wan´t runn in here because the
+construction to test the code lies in learnyounode and not here.
+
+I hope this make sence, happy reading.
+
+Resources:
+node.js
+w3school.com
+wikipedia.org
+developer.mozilla.org
+javascriptissexcy.com
+benalman.com
