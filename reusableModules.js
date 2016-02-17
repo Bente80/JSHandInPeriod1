@@ -5,19 +5,19 @@
 var fs = require('fs');
 var path = require('path');
 
+// I export a function:
 module.exports = function (dirrName, filterstr, callback){
     fs.readdir(dirrName,function (error, list){
         if (error){
-            return callback(error);
+            return callback(error); // if error = true, an error message s logged
         }
         else {
-            var newList = [];
-            list.forEach(function (enFileiListen) {
-                if (path.extname(enFileiListen) === '.' + filterstr) {
-                    newList.push(enFileiListen);
-                }
+            // we filter the list
+            list = list.filter(function (enFileiListen) { // here I make a new list that is == it self just filtered
+                return path.extname(enFileiListen) === ','+filterstr
             });
-            return callback(null, newList);
+            // list is sent back with the callback, Null is null because the call went well.
+            callback(null, list);
         };
     });
 };
